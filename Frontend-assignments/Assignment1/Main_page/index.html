@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Head -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Komputer Store</title>
+    <link rel="stylesheet" href="Page_Design/index.css" />
+    <script defer src="Page_js/index.js"></script>
+  </head>
+
+  <body>
+    <!-- Website title -->
+    <h1>
+      Komputer Store
+      <p id="titleText">"The best leaning komputer store of pisa" - N.Lennox</p>
+    </h1>
+
+    <!-- Main content -->
+    <main id="gridContainer">
+      <article class="contentFlex">
+        <h2>Joe Banker</h2>
+
+        <!--User balance-->
+        <section class="displayMoneyInfo">
+          <p>Balance</p>
+          <p id="balanceAmount">0 Kr.</p>
+        </section>
+
+        <!--Outstanding loan-->
+        <section hidden id="outstandingLoanInfo">
+          <p id="outstandingLoan">Outstanding Loan</p>
+          <p id="outstandingLoanAmount">2ek</p>
+        </section>
+
+        <!--get loan button-->
+        <button id="getLoanButton">Get a loan</button>
+      </article>
+
+      <article class="contentFlex">
+        <h2>Work</h2>
+        <!--Worked cash amount-->
+        <section class="displayMoneyInfo">
+          <p>Pay</p>
+          <p id="workEarnedAmount">0 Kr.</p>
+        </section>
+
+        <section id="workButtons">
+          <!--Bank button-->
+          <button id="bankButton">Bank</button>
+          <!--Work button-->
+          <button id="workButton">Work</button>
+          <!-- Repay loan button-->
+          <button hidden id="repayLoanButton">Repay Loan</button>
+        </section>
+      </article>
+
+      <article class="contentFlex">
+        <h2>Lapstops</h2>
+        <!-- Select Section-->
+        <section>
+          <select id="selectComputer">
+            <option value="" selected disabled hidden>Select computer</option>
+          </select>
+        </section>
+
+        <h3 id="featureTitle">Features:</h3>
+
+        <ul id="featureDesc"></ul>
+      </article>
+
+      <article hidden id="computerInfo">
+        <!-- Computer information section-->
+        <section id="infoSection">
+          <img id="computerImg" />
+          <!--Computer information-->
+          <section>
+            <h2 id="computerTitle"></h2>
+            <p id="computerDesc"></p>
+          </section>
+          <!--Buy computer section-->
+          <section id="buyComputerSection">
+            <h2 id="computerPrice"></h2>
+            <!--Buy computer button-->
+            <button id="buyNowButton">BUY NOW</button>
+          </section>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

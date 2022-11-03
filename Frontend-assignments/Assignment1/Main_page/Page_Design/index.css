@@ -1,0 +1,201 @@
+/* variables */
+:root {
+  --border-radius: 0.8em;
+  --border: 0.1em;
+  --margin-auto: auto;
+  --default-value: 0;
+  --center-item: center;
+  --width-size: 80%;
+}
+
+body {
+  margin: 0;
+  text-indent: 10%;
+  filter: drop-shadow(0.2rem 0 0.7rem #000000);
+}
+
+main {
+  width: var(--width-size);
+}
+h1 {
+  margin: var(--margin-auto);
+  padding: 0.7em;
+  background-color: black;
+  margin-bottom: 2em;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4em;
+  margin: var(--margin-auto);
+  
+}
+
+option,
+#gridContainer > article:hover {
+  border-radius: var(--border-radius);
+  background-color: #f2f0e8;
+  transition: 1s;
+  filter: brightness(80%);
+  transform: skew(9deg);
+}
+
+#gridContainer > article {
+  transition: 6s;
+  filter: brightness(100%);
+  border-radius: var(--border-radius);
+  background-color: #f2f0e8;
+}
+
+#computerInfo {
+  border: var(--border) solid black;
+  grid-column: 1 / 4;
+  padding: 1em;
+  text-indent: var(--default-value);
+}
+li {
+  font-size: 14px;
+}
+
+#getLoanButton:hover,
+#bankButton:hover,
+#workButton:hover,
+#repayButton:hover,
+#buyNowButton:hover,
+#repayLoanButton:hover {
+  background-color: rgb(46, 43, 37);
+  transition: 1s ease;
+  transform: translate(0, 0.5em);
+  color: rgb(175, 175, 173);
+}
+#titleText {
+  font-size: 12px;
+}
+
+@keyframes throwElement {
+  0% {
+    transform: rotate(180deg);
+  }
+  25% {
+    transform: rotate(-180deg);
+  }
+
+  50% {
+    transform: translateX(270px);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(200deg);
+  }
+  25% {
+    transform: rotate(400deg);
+  }
+
+  50% {
+    transform: rotate(-200deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #gridContainer {
+    grid-template-columns: 1fr;
+  }
+
+  #computerInfo {
+    grid-column: 1;
+  }
+}
+
+#getLoanButton {
+  align-self: var(--center-item);
+  width: var(--width-size);
+  border: var(--border) solid green;
+  background-color: rgb(0, 247, 0);
+}
+
+.displayMoneyInfo,
+#infoSection,
+#workButtons,
+#outstandingLoanInfo {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Overrides the hidden and prevent it from being overriden by using !important */
+[hidden] {
+  display: none !important;
+}
+
+p {
+  width: 100%;
+}
+
+#computerDesc {
+  width: 100%;
+}
+
+button {
+  transition: 2s;
+  width: 30%;
+  height: 3em;
+  border-radius: var(--border-radius);
+  border: var(--border) solid yellowgreen;
+}
+
+#bankButton {
+  background-color: yellow;
+}
+
+#workButton {
+  background-color: blue;
+}
+
+#selectComputer {
+  width: var(--width-size);
+  padding: 1em;
+  border-radius: var(--border-radius);
+}
+
+img {
+  width: 20%;
+}
+
+#featureDesc {
+  position: relative;
+  right: 3em;
+  bottom: 2em;
+  width: 80%;
+  font-size: 10px;
+  list-style: none;
+}
+
+#buyNowButton {
+  width: 100%;
+  background-color: rgb(42, 187, 187);
+}
+
+#selectComputer {
+  font-size: medium;
+}
+
+.contentFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#buyComputerSection {
+  text-align: var(--center-item);
+  width: 15%;
+}
