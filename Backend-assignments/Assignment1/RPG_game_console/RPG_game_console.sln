@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPG_game_console", "RPG_game_console.csproj", "{09115B1F-0D97-461C-A47E-27D714DFFB95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeroTest", "..\HeroTest\HeroTest.csproj", "{79978C69-9D76-4821-B0AF-12AC0590B9AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09115B1F-0D97-461C-A47E-27D714DFFB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09115B1F-0D97-461C-A47E-27D714DFFB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09115B1F-0D97-461C-A47E-27D714DFFB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09115B1F-0D97-461C-A47E-27D714DFFB95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79978C69-9D76-4821-B0AF-12AC0590B9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79978C69-9D76-4821-B0AF-12AC0590B9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79978C69-9D76-4821-B0AF-12AC0590B9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79978C69-9D76-4821-B0AF-12AC0590B9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4C2BE06-5C76-4391-8F62-10E914F33130}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Assignment-3-backend-api</name>
+    </assembly>
+    <members>
+        <member name="M:Assignment_3_backend_api.Controllers.CharactersController.GetCharacters">
+            <summary>
+            Gets all Characters
+            </summary>
+            <returns>a list of characterReadDto objects</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.CharactersController.GetCharacter(System.Int32)">
+            <summary>
+            Gets a single Character.
+            </summary>
+            <param name="id"> character id</param>
+            <returns> a character object</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.CharactersController.PutCharacter(System.Int32,Assignment_3_backend_api.Models.DTOs.Character.CharacterPutDto)">
+            <summary>
+            Puts a single character
+            </summary>
+            <param name="id"> character id </param>
+            <param name="character"> characterputDto object </param>
+            <returns> an IActionResult specifying the result </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.CharactersController.PostCharacter(Assignment_3_backend_api.Models.DTOs.Character.CharacterPostDto)">
+            <summary>
+            Post a single character
+            </summary>
+            <param name="characterDto"> characterPost Dto object </param>
+            <returns> an IActionResult specifying the result </returns>
+            
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.CharactersController.DeleteCharacter(System.Int32)">
+            <summary>
+            Deletes a character
+            </summary>
+            <param name="id"> character id </param>
+            <returns> an IActionResult specifying the result </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.FranchisesController.GetFranchises">
+            <summary>
+            Gets all franchises
+            </summary>
+            <returns> Gets a Collection of franchises </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.FranchisesController.GetFranchise(System.Int32)">
+            <summary>
+            Gets a single franchise
+            </summary>
+            <param name="id"> franchise id </param>
+            <returns> Gets a single franchise object </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.FranchisesController.PutFranchise(System.Int32,Assignment_3_backend_api.Models.DTOs.Franchise.FranchisePutDto)">
+            <summary>
+            Puts a single franchise
+            </summary>
+            <param name="id"> franchise id </param>
+            <param name="franchise"> franchiseputDto object </param>
+            <returns> an IActionResult specifying the result </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.FranchisesController.PostFranchise(Assignment_3_backend_api.Models.DTOs.Franchise.FranchisePostDto)">
+            <summary>
+            Posts a single character
+            </summary>
+            <param name="franchiseDto"> franchisePostDto object </param>
+            <returns> an IActionResult specifying the result </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.FranchisesController.DeleteFranchise(System.Int32)">
+            <summary>
+            Deletes a single Franchise
+            </summary>
+            <param name="id"> franchise id </param>
+            <returns> an IActionResult specifying the result </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.FranchisesController.GetMoviesForFranchiseById(System.Int32)">
+            <summary>
+            Gets a collection of movies
+            </summary>
+            <param name="id"> Movie Id </param>
+            <returns> an collection of movieReadDto </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.FranchisesController.GetCharactersForFranchiseById(System.Int32)">
+            <summary>
+            Gets a collection of characters
+            </summary>
+            <param name="id"> franchise id </param>
+            <returns> a collection of characterReadDto</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.FranchisesController.UpdateMoviesForFranchise(System.Int32[],System.Int32)">
+            <summary>
+            Puts a collection of movies for franchises
+            </summary>
+            <param name="id"> Franchise id </param>
+            <param name="movieIds"> A list of movie ids </param>
+            <returns> an IActionResult specifying the result </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.MoviesController.GetMovies">
+            <summary>
+            Gets a collection of Movies
+            </summary>
+            <returns> A collection of movies </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.MoviesController.GetMovie(System.Int32)">
+            <summary>
+            Gets a single Movie
+            </summary>
+            <param name="id"> movie id </param>
+            <returns> a single movieReadDto object</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.MoviesController.GetCharactersForMovieById(System.Int32)">
+            <summary>
+            Gets a collection of characters
+            </summary>
+            <param name="id"> movie id </param>
+            <returns> Gets a collection of characters </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.MoviesController.PutMovie(System.Int32,Assignment_3_backend_api.Models.DTOs.Movie.MoviePutDto)">
+            <summary>
+            Puts a single movie
+            </summary>
+            <param name="id"> movie id </param>
+            <param name="movie"> movieputDto object </param>
+            <returns> an IActionResult specifying the result </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.MoviesController.PostMovie(Assignment_3_backend_api.Models.DTOs.Movie.MoviePostDto)">
+            <summary>
+            Post a single movie
+            </summary>
+            <param name="movieDto"> moviepostDto object </param>
+            <returns> an IActionResult specifying the result </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.MoviesController.DeleteMovie(System.Int32)">
+            <summary>
+            Deletes a single Movie
+            </summary>
+            <param name="id"> movie id </param>
+            <returns> an IActionResult specifying the result </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Controllers.MoviesController.UpdateCharactersForMovie(System.Int32[],System.Int32)">
+            <summary>
+            Puts a list of characters
+            </summary>
+            <param name="id"> movie id </param>
+            <param name="characterIds"> List of characterIds </param>
+            <returns> an IActionResult specifying the result </returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Characters.CharacterServiceImp.AddAsync(Assignment_3_backend_api.Models.Character)">
+            <summary>Add a new Character.</summary>
+            <param name="entity">Character object</param>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Characters.CharacterServiceImp.CharacterExistsAsync(System.Int32)">
+            <summary>Checks if characters exists asynchronous.</summary>
+            <param name="id">The identifier.</param>
+            <returns>returns a bool value wether character exists</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Characters.CharacterServiceImp.DeleteByIdAsync(System.Int32)">
+            <summary>Deletes an Character by its Id.</summary>
+            <param name="id">the character id</param>
+            <exception cref="T:System.NotImplementedException">Throws NotImplentedException</exception>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Characters.CharacterServiceImp.GetAllAsync">
+            <summary>Gets all Characters Asynchronous</summary>
+            <returns>A collection of characters</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Characters.CharacterServiceImp.GetByIdAsync(System.Int32)">
+            <summary>Get a specific Character by its Id.</summary>
+            <param name="id">the character id</param>
+            <returns>A singular Character</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Characters.CharacterServiceImp.UpdateAsync(Assignment_3_backend_api.Models.Character)">
+            <summary>Updates an existing character</summary>
+            <param name="entity">the Character object</param>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Characters.ICharacterService.CharacterExistsAsync(System.Int32)">
+            <summary>Checks if characters exists asynchronous.</summary>
+            <param name="id">The identifier.</param>
+            <returns>returns a bool value wether character exists</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Franchises.FranchiseServiceImp.AddAsync(Assignment_3_backend_api.Models.Franchise)">
+            <summary>Add a new Franchise object asynchrous</summary>
+            <param name="entity">A franchise object</param>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Franchises.FranchiseServiceImp.DeleteByIdAsync(System.Int32)">
+            <summary>Deletes an Franchise by its Id.</summary>
+            <param name="id">The franchise id</param>
+            <exception cref="T:System.NotImplementedException">Throws NotImplementedException</exception>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Franchises.FranchiseServiceImp.FranchiseExistsAsync(System.Int32)">
+            <summary>Checks if Franchises exists asynchronous.</summary>
+            <param name="id">The identifier.</param>
+            <returns>Returns a boolean value if franchise exists</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Franchises.FranchiseServiceImp.GetAllAsync">
+            <summary>Get all Franchises asynchrounsly</summary>
+            <returns>A collection of Franchises</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Franchises.FranchiseServiceImp.GetAllCharactersAsync(System.Int32)">
+            <summary>Gets all characters asynchronous.</summary>
+            <param name="franchiseId">The franchise identifier.</param>
+            <returns>Returns a collections of Characters</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Franchises.FranchiseServiceImp.GetAllMoviesAsync(System.Int32)">
+            <summary>Gets all movies asynchronous.</summary>
+            <param name="franchiseId">The franchise identifier.</param>
+            <returns>Returns a Collection of movies</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Franchises.FranchiseServiceImp.GetByIdAsync(System.Int32)">
+            <summary>Get a specific Franchise by its Id.</summary>
+            <param name="id">the Franchise id</param>
+            <returns>Gets a Franchise object</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Franchises.FranchiseServiceImp.UpdateAsync(Assignment_3_backend_api.Models.Franchise)">
+            <summary>Updates an existing franchise.</summary>
+            <param name="entity">the Franchsie object</param>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Franchises.FranchiseServiceImp.UpdateMoviesAsync(System.Int32[],System.Int32)">
+            <summary>Updates the franchises Movies asynchronous.</summary>
+            <param name="movieIds">The movie ids.</param>
+            <param name="franchiseId">The franchise identifier.</param>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Franchises.IFranchiseService.UpdateMoviesAsync(System.Int32[],System.Int32)">
+            <summary>Updates the franchises asynchronous.</summary>
+            <param name="movieIds">The movie ids.</param>
+            <param name="franchiseId">The franchise identifier.</param>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Franchises.IFranchiseService.FranchiseExistsAsync(System.Int32)">
+            <summary>Franchises the exists asynchronous.</summary>
+            <param name="id">The identifier.</param>
+            <returns>Returns a boolean value if franchise exiss</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Franchises.IFranchiseService.GetAllMoviesAsync(System.Int32)">
+            <summary>Gets all movies asynchronous.</summary>
+            <param name="franchiseId">The franchise identifier.</param>
+            <returns>Returns a Collection of movies</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Franchises.IFranchiseService.GetAllCharactersAsync(System.Int32)">
+            <summary>Gets all characters asynchronous.</summary>
+            <param name="franchiseId">The franchise identifier.</param>
+            <returns>Returns a collections of Characters</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.ICrudService`2.GetAllAsync">
+            <summary>
+            Get all instances of an entity.
+            </summary>
+            <returns>A collection of entites</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.ICrudService`2.GetByIdAsync(`1)">
+            <summary>
+            Get a specific entity by its Id.
+            </summary>
+            <param name="id"></param>
+            <returns>A singular entity</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.ICrudService`2.AddAsync(`0)">
+            <summary>
+            Add a new entity.
+            </summary>
+            <param name="entity"></param>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.ICrudService`2.UpdateAsync(`0)">
+            <summary>
+            Updates an existing entity.
+            </summary>
+            <param name="entity"></param>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.ICrudService`2.DeleteByIdAsync(`1)">
+            <summary>
+            Deletes an entity by its Id.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Movies.IMovieService.UpdateCharactersAsync(System.Int32[],System.Int32)">
+            <summary>Updates the characters asynchronous.</summary>
+            <param name="charactersIds">The characters ids.</param>
+            <param name="movieId">The movie identifier.</param>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Movies.IMovieService.MovieExistsAsync(System.Int32)">
+            <summary>Checks if Movies exists asynchronous.</summary>
+            <param name="id">The identifier.</param>
+            <returns>returns a bool value of wether it exists</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Movies.IMovieService.GetAllCharactersAsync(System.Int32)">
+            <summary>Gets all characters asynchronous.</summary>
+            <param name="MovieId">The movie identifier.</param>
+            <returns>Returns a ICollection of character</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Movies.MovieServiceImp.AddAsync(Assignment_3_backend_api.Models.Movie)">
+            <summary>Add a new entity.</summary>
+            <param name="entity">The movie object</param>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Movies.MovieServiceImp.DeleteByIdAsync(System.Int32)">
+            <summary>Deletes an entity by its Id.</summary>
+            <param name="id">the Id of the movie</param>
+            <exception cref="T:System.NotImplementedException">Throws NotImplementedException</exception>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Movies.MovieServiceImp.GetAllAsync">
+            <summary>Gets a Collection of all Movies</summary>
+            <returns>A collection of Movies</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Movies.MovieServiceImp.GetAllCharactersAsync(System.Int32)">
+            <summary>Gets all characters asynchronous.</summary>
+            <param name="MovieId">The movie identifier.</param>
+            <returns>Returns a ICollection of character</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Movies.MovieServiceImp.GetByIdAsync(System.Int32)">
+            <summary>Get a specific Movie by its Id.</summary>
+            <param name="id">The movie Identifier</param>
+            <returns>Returns a single Movie object</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Movies.MovieServiceImp.MovieExistsAsync(System.Int32)">
+            <summary>Checks if Movies exists asynchronous.</summary>
+            <param name="id">The identifier.</param>
+            <returns>returns a bool value of wether it exists</returns>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Movies.MovieServiceImp.UpdateAsync(Assignment_3_backend_api.Models.Movie)">
+            <summary>Updates an existing Movie</summary>
+            <param name="entity">the Movie identifier</param>
+        </member>
+        <member name="M:Assignment_3_backend_api.Services.Movies.MovieServiceImp.UpdateCharactersAsync(System.Int32[],System.Int32)">
+            <summary>Updates the characters asynchronous.</summary>
+            <param name="charactersIds">The characters ids.</param>
+            <param name="movieId">The movie identifier.</param>
+        </member>
+    </members>
+</doc>

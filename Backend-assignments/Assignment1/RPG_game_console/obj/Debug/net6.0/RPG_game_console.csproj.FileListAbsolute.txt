@@ -1,0 +1,30 @@
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\bin\Debug\net6.0\RPG_game_console.exe
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\bin\Debug\net6.0\RPG_game_console.deps.json
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\bin\Debug\net6.0\RPG_game_console.runtimeconfig.json
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\bin\Debug\net6.0\RPG_game_console.dll
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\bin\Debug\net6.0\RPG_game_console.pdb
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.csproj.AssemblyReference.cache
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.AssemblyInfoInputs.cache
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.AssemblyInfo.cs
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.csproj.CoreCompileInputs.cache
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.dll
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\refint\RPG_game_console.dll
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.pdb
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.genruntimeconfig.cache
+C:\Users\MAlida\Desktop\backend_assi1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\ref\RPG_game_console.dll
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.csproj.AssemblyReference.cache
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.AssemblyInfoInputs.cache
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.AssemblyInfo.cs
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.csproj.CoreCompileInputs.cache
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.dll
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\refint\RPG_game_console.dll
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.pdb
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\bin\Debug\net6.0\RPG_game_console.exe
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\bin\Debug\net6.0\RPG_game_console.deps.json
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\bin\Debug\net6.0\RPG_game_console.runtimeconfig.json
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\bin\Debug\net6.0\RPG_game_console.dll
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\bin\Debug\net6.0\RPG_game_console.pdb
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\RPG_game_console.genruntimeconfig.cache
+C:\Users\Mohammed Ali Davami\OneDrive\Desktop\backend1\c-sharp-fundamentals\RPG_game_console\obj\Debug\net6.0\ref\RPG_game_console.dll

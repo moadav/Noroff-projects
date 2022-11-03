@@ -1,0 +1,2 @@
+DELETE FROM Assistant
+WHERE Id = 1
