@@ -1,0 +1,55 @@
+
+.increaseWidth{
+    width: 80%;
+    filter: drop-shadow(0rem 0 3rem #3809e2);    
+    
+}
+
+.loginInput {
+    padding: 1em;
+    border-radius: 2em;
+    text-align: center;
+    width: 100%;
+    background-color: #D9D9D9;
+
+}
+.buttonImage{
+    position: relative;
+    width: 100%;
+    bottom: 0.3em;
+}
+.submitRound {
+    position: absolute;
+    width: 5em;
+    height: 2em;
+    right:-0.5em;
+    bottom:1.6em;
+    border-radius: 0.8em;
+
+}
+.fieldset{
+    border: none;
+}
+.inputImage {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    bottom: 1.2em;
+    left:1.5em;
+
+}
+.username{
+    position: absolute;
+    left:3.5em;
+    bottom:1.5em;
+}
+.errorMessages{
+    position:absolute;
+    top: 4em;
+    left:3em;
+
+}
+
+.loginForm {
+    position: relative;
+}

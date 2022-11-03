@@ -1,0 +1,44 @@
+*{
+    margin:auto;
+}
+
+.profileTitle{
+    width: 80%;
+    text-align: center;
+    font-size: 33px;
+
+}
+
+.translationListSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    background-color: #E9C7C7;
+    border-radius: 3em;
+    margin-top: 2em;
+    height: 30em;
+    font-size: 20px;
+    filter: drop-shadow(0rem 0 2rem #087eec);    
+}
+
+.welcomeUser{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 20px;
+}
+.profileButtons{
+    display: flex;
+    justify-content: space-between;
+    filter: drop-shadow(0rem 0 2rem #087eec);    
+
+}
+
+.profileButtons > button{
+    width: 6em;
+    height: 6em;
+    border-radius: 2em;
+}
+.profileButtons > button:hover{
+  transform: translateX(1em);
+}

@@ -1,0 +1,14 @@
+*{
+    margin:auto;
+}
+.translationSection {
+    margin-top: 2em;
+    width: 70%;
+    background-color:#E9C7C7;
+    border-radius: 2em;
+    filter: drop-shadow(0rem 0 3rem #0ccddb);    
+}
+.translateTextSection{
+    width: 50%;
+    margin-top: 5em;
+}

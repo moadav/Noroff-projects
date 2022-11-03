@@ -1,0 +1,25 @@
+.navigationBar {
+    filter: drop-shadow(0rem 0 2rem #23df0b);    
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: flex-end;
+
+}
+
+
+.navigations {  
+   
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+
+}
+
+.navigations>li>a {
+    color: white;
+    text-decoration: none;
+
+}

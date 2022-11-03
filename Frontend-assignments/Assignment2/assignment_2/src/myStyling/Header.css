@@ -1,0 +1,32 @@
+.h1title {
+  width: 15em;
+  display:flex;
+  flex-direction:row;
+  color: white;
+  font-family: AlienFont,"Times New Roman", Times, serif;
+}
+
+@font-face {
+  font-family: AlienFont;
+  src: url(../font/Schoolbell-Regular.ttf);
+}
+
+.alienLogo{
+  filter: drop-shadow( 0 0rem #77d16b);
+  width: 4em;
+}
+
+.pageHeader{
+  display:flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+}
+.usernameLogin{
+  position: absolute;
+  font-size: 18px;
+  color: white;
+  top:1.5em;
+  right:1px;
+  
+}
