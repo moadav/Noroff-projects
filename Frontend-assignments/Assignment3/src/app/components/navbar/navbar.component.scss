@@ -1,0 +1,13 @@
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var(--color-orange);
+  border-bottom: 2px solid var(--color-yellow--1);
+  color: var(--color-yellow--2);
+  font-weight: 700;
+}
+
+nav li:hover {
+  color: var(--color-blue);
+}

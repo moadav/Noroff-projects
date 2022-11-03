@@ -1,0 +1,20 @@
+<div class="container">
+  <app-page-title titleText="Explore & collect new Pokémon"></app-page-title>
+
+  <div class="flex flex-wrap w-full justify-center items-center mt-8">
+    <app-pokemon-card
+      *ngFor="let pokemon of pokemons"
+      [pokemon]="pokemon"
+    ></app-pokemon-card>
+  </div>
+
+  <p>Page number: {{page}}</p>
+  <div>
+    <button class="bg-white p-5 m-2 rounded-lg" (click)="handlePrevPageClick()">
+      Previous page
+    </button>
+    <button class="bg-white p-5 m-2 rounded-lg" (click)="handleNextPageClick()">
+      Next page
+    </button>
+  </div>
+</div>

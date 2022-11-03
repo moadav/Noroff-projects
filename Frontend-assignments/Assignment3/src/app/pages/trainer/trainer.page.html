@@ -1,0 +1,18 @@
+<p *ngIf="pokemons.length === 0">
+  You do not have any Pokémon! Start by
+  <a routerLink="/catalogue">collecting one here.</a>
+</p>
+<div class="mt-8"></div>
+<app-page-title
+  *ngIf="pokemons.length > 0"
+  titleText="Your Pokémon:"
+></app-page-title>
+<div
+  class="flex flex-wrap w-full justify-center items-center mt-8"
+  *ngIf="pokemons"
+>
+  <app-pokemon-card
+    *ngFor="let pokemon of pokemons"
+    [pokemon]="pokemon"
+  ></app-pokemon-card>
+</div>

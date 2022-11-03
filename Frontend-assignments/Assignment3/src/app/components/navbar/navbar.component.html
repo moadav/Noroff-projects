@@ -1,0 +1,17 @@
+<nav class="flex justify-between items-center p-5 w-full">
+  <h1 class="text-xl">Pokémon Collector</h1>
+
+  <ng-container *ngIf="collector !== undefined">
+    <ul class="flex justify-between space-x-3">
+      <li class="px-5 text-l">
+        <a routerLink="/trainer">Trainer </a>
+      </li>
+      <li class="px-5 text-l">
+        <a routerLink="/catalogue">Catalogue </a>
+      </li>
+      <li class="px-5 text-l">
+        <button (click)="logOut()">Log out</button>
+      </li>
+    </ul>
+  </ng-container>
+</nav>

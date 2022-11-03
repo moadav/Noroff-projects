@@ -1,0 +1,48 @@
+<img class="suprisepika" src="../../../assets/suprisepika.png" />
+<img class="ash" src="../../../assets/ash-ket.png" />
+<img class="ash catch" src="../../../assets/pokeball.png" />
+
+<form
+  *ngIf="!this.loading"
+  id="formLogin"
+  #loginForm="ngForm"
+  (ngSubmit)="loginSubmit(loginForm)"
+>
+  <section id="loginSection">
+    <section id="row_input_button">
+      <fieldset>
+        <input
+          ngModel
+          #username="ngModel"
+          type="text"
+          name="username"
+          id="username"
+          placeholder="What's your name?"
+        />
+      </fieldset>
+
+      <button id="loginButton" type="submit" *ngIf="!buttons">Login</button>
+      <button
+        id="loginButton"
+        type="button"
+        *ngIf="buttons"
+        (click)="register(loginForm)"
+      >
+        Register
+      </button>
+    </section>
+
+    <form #loginForma="ngForm" id="buttonRadio"  (change)="checked(loginForma)">
+      <input type="radio" id="login" [(ngModel)]="choices" name="user_choice" value="Login" checked/>
+      <label for="login">Login</label>
+      <input type="radio" [(ngModel)]="choices" id="register" name="user_choice" value="Register" />
+      <label for="register">Register</label>
+    </form>
+  </section>
+
+  <p *ngIf="userExist">User Exists... Please login instead</p>
+  <p *ngIf="userExistLogin">User does not exist, please register</p>
+</form>
+
+<p *ngIf="this.loading">Loading...</p>
+<p *ngIf="this.error">{{ this.error }}</p>

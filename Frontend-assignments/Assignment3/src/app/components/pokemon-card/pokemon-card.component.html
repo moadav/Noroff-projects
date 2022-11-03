@@ -1,0 +1,21 @@
+<h3 *ngIf="pokemon" class="text-center title text-3xl mb-2">
+  {{ pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1) }}
+</h3>
+<button
+  (click)="!isAdded ? handleSavePokemon() : handleRemovePokemon()"
+  *ngIf="pokemon"
+  class="z-10"
+>
+  <div class="active:pointer-events-none">
+    <div
+      class="rounded-xl m-5 card flex justify-center items-center w-1/4 mb-8"
+    >
+      <div class="emoji absolute" *ngIf="isAdded">❌</div>
+      <div class="emoji absolute" *ngIf="!isAdded">✔</div>
+      <div class="absolute added" [ngClass]="{ hide: !isAdded }">
+        <p>Added</p>
+      </div>
+      <img src="{{ pokemon.image }}" alt="pokemon" class="pokemon-image" />
+    </div>
+  </div>
+</button>

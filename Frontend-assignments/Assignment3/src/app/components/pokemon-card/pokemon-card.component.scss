@@ -1,0 +1,47 @@
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  background-color: var(--color-yellow--1);
+  height: 200px;
+  width: 200px;
+  position: relative;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+}
+
+.title {
+  color: var(--color-blue);
+  font-weight: 700;
+  margin-bottom: -0.4rem;
+}
+
+.added {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba($color: #000000, $alpha: 0.6);
+  border-radius: 12px;
+  color: white;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.emoji {
+  font-size: 2.6rem;
+  transform: translate(160%, -150%);
+  z-index: 2;
+}
+
+.hide {
+  opacity: 0;
+  transition: all 200ms;
+}

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-blue: #a1e4ff;
+  --color-pink: #ff70a6;
+  --color-orange: #ff9770;
+  --color-yellow--1: #ffd670;
+  --color-yellow--2: #e9ff70;
+  --color-white: #ffffff;
+
+  /* font-family: "Carter-one";
+  src: url("./assets/fonts/CarterOne.ttf"); */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-orange);
+  width: 100vw;
+  min-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
